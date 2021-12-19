@@ -14,10 +14,8 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: 100%;
-    padding: 0;
+    height: 40px;
     margin: 0;
-    background-color: rgb(69, 69, 71);
 }
 
 .bloco{
@@ -29,10 +27,15 @@
     font-family: Momcake;
 }
 
-#um{;
+.legend{
     color: rgb(245, 241, 47);
-    flex-grow: 7;
     text-align: start;
+    width: 150px;
+    height: 33px;
+}
+
+#um{
+    flex-grow: 7;
 }
 
 #dois{;
@@ -50,8 +53,10 @@
     flex-grow: 2;
 }
 
-#um:hover{
-    font-size: 40px;
+.legend:hover{
+    font-size: 35px;
+    width: 150px;
+    height: 33px;
 }
 
 #dois:hover{
